@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #d5e1ef;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode-box .card{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.qrcode-box .card img{
+    transition: all .3s ease-in-out;
+    border-radius: 25px;
+}
+
+.qrcode-box .card img:hover{
+    border-radius: 25px;
+    transform: scale(1.1);
+}
+
+
+
+.qrcode-box .card h5{
+    font-weight: 800;
+    font-size: 17px;
+    padding: 17px 0;
+
+}
+
+.qrcode-box .card p{
+    text-align: center;
+    font-size: 14px;
+    color: #938e8e;
+}
+
